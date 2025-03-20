@@ -375,7 +375,7 @@ export const CreateToken: FC = () => {
               />
             </div>
           </div>
-  {/*    <label>
+   <label>
             <input
               type="checkbox"
               checked={revokeMintAuthority}
@@ -383,14 +383,14 @@ export const CreateToken: FC = () => {
             />
             freezeAuthority
           </label>
-          <label>
+          {/*  <label>
             <input
               type="checkbox"
               checked={revokeUpdateAuthority}
               onChange={() => setRevokeUpdateAuthority(!revokeUpdateAuthority)}
             />
             mintAuthority
-          </label> */}
+          </label> >*/}
           <div className="mt-4">
             <button
               className="... btn m-2 animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] px-8 hover:from-pink-500 hover:to-yellow-500"
